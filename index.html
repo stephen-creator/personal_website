@@ -9,12 +9,21 @@
 </head>
 <body>
     <div id="nav_bar">
-        <div class="nav"><a class="link" href="file:///C:/Users/ASC_Student/Desktop/ASCProjects/week3/day5/personal_website/index.html">Homepage</a></div>
-        <div class="nav"><a class="link" target="_blank" href="resume.pdf">Resume</a></div>
+        <div id="left_nav">
+            <div class="nav"><a class="link" href="index.html">Homepage</a></div>
+            <div class="nav"><a class="link" href="projects.html">Projects</a></div>
+            <div class="nav"><a class="link" target="_blank" href="resume.pdf">Resume</a></div> 
+        </div>
+        <div id="right_nav">
+            <div class="nav"><a class="link" target="_blank" href= "https://www.linkedin.com/in/stephen-lin-a01515243/"><img class= "icon" src="images/linkedin.png"></a></div>
+            <div class="nav"><a class="link" target="_blank" href= "https://github.com/stephen-creator"><img class= "icon" src="images/github.png"></a></div>
+            <div class="nav"><a class="link" target="_blank" href= "mailto: stephenlin096@gmail.com"><img id="email" src="images/email.png"></a></div>
+        </div>
+
+     
     </div>
 
     <div id="intro">
-        <img src="images/IMG_6251.jpg">
         <div id="about">
             <h1>Hi I'm Stephen !</h1>
             <div id="info">
@@ -22,45 +31,37 @@
                     career, I have been involved with several clubs within my club that focused on bringing awareness to the issues of different marginalized 
                     communities. This along with my passion for coding led me to the discovery of the field of artificial intelligence, an industry I would like 
                     to pursue a carrer in. In my free time, I enjoy mindlessly scrolling through Pinterest and listening to new music artists!
-
+                    <br>
+                    <br>
+                    My activsm includes canvassing for New York State Assemblymember Yuh Line Niou and interning with the Stop AAPI Hate Youth Campaign. Aside from 
+                    my volunteering with these organizations, I am a student at All Star Code's Summer Intensive and have attended Mouse Design League in the past.
+                    More of my experiences can be found on my Linkedin!
                 </p>
-                <p>Email: stephenlin096@gmail.com</p>
-                <p>Connect with me on <a target="_blank" href="https://www.linkedin.com/in/stephen-lin-a01515243/">LinkedIn</a> !</p>
-                <p>Check out some of my code <a target="_blank" href="https://github.com/stephen-creator">here</a> !</p>
+                
             </div>
         </div>
-    </div>
 
-    <div>
-        <h1 id="project_heading">Projects</h1>
-        <div id="project">
-
-            <div class="section">
-                <img class="profile" src="images/bias.png">
-                <h2><a target="_blank" href="https://emoticon.mouse.org/2022/bias-chat">Bias Chat</a></h2>
-                <p class="info">Bias Chat was an app design pitch to address the issues of biases and help individuals recognize them
-                    and educate themselves on how to correct their biases. This educational app tracks the user's progress and provides suggestions on articles and quizzes the 
-                    user should look into next.
-                </p>
+        <div id="fun">
+            <img id="pfp" src="images/IMG_6251.jpg">
+            <button id="toggle">Load fun facts!</button>
+            <div id="fun_facts">
+                <h3 id="facts_header">Fun Facts!</h3>
+                <div id="list">
+                    <ul>
+                        <li>My go-to boba order is a Passion Fruit Green Tea!</li>
+                        <li>I won a Scholastic Arts drawing contest in elementary school.</li>
+                        <li>My favorite movie is Spirited Away.</li>
+                        <li>I wanted to be a lawyer when I was younger.</li>
+                        <li>I have the same birthday as Simu Liu.</li>
+                    </ul>
+                </div>
+        
             </div>
-
-            <div class="section">
-                <img class="profile" src="images/ib.png">
-                <h2><a target="_blank" href="https://github.com/stephen-creator/ib_website">IB Website</a></h2>
-                <p class="info">This website was one of my projects I had in my computer science class at school. The main curriculum at my school is the International Baccalaureate curriculum. This project was created
-                    to educate myself and my peers on the classes and diploma requirements we would be participating in for the next two years.
-                </p>
-            </div>
-
-            <div class="section">
-                <img class="profile" src="images/gongcha.png">
-                <h2><a target="_blank" href="https://github.com/stephen-creator/gongchareplica">Copy that Website</a></h2>
-                <p class="info">As an avid boba drinker, I decided to recreate the website of one of my favorite boba places, GongCha. This project used HTML and CSS to display the homepage of the official Gongcha website.</p>
-            </div>
-            
         </div>
+
     </div>
+
     
-
+    <script src="script.js"></script>
 </body>
 </html>
